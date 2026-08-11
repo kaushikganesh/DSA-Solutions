@@ -26,9 +26,9 @@ Algorithm:
 
 1. Create an empty HashMap.
 2. Traverse the array from left to right.
-3. Find complement = target - current number.
+3. Find complement for each number in array = target - current number.
 4. If complement exists in HashMap:
-       Return its index and current index.
+       Return its index and current number index.
 5. Otherwise:
        Store current number and its index.
 6. Return empty array if no pair is found.
