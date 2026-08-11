@@ -9,6 +9,9 @@ Output: [0, 1]
 Explanation:
 nums[0] + nums[1] = 2 + 7 = 9
 
+Approach:
+Use a HashMap to store each number and its index.
+
 
 Code:
 
