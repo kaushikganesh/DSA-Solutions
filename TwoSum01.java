@@ -20,3 +20,24 @@ class Solution {
         return new int[]{};
     }
 }
+
+
+Algorithm:
+
+1. Create an empty HashMap.
+2. Traverse the array from left to right.
+3. Find complement = target - current number.
+4. If complement exists in HashMap:
+       Return its index and current index.
+5. Otherwise:
+       Store current number and its index.
+6. Return empty array if no pair is found.
+
+
+Complexity:
+
+* Time Complexity: O(n) — traverse the array once.
+* Space Complexity: O(n) — HashMap may store up to n elements.
+
+
+
