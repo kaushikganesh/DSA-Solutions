@@ -1,15 +1,13 @@
 Problem:
-
 Given an integer array nums, return true if any value appears at least twice in the array. Return false if every element is distinct.
 
 Example:
-
 Input: nums = [1, 2, 3, 1]
-
 Output: true
 
 Explanation:
 1 appears more than once.
+
 
 Approach:
 
