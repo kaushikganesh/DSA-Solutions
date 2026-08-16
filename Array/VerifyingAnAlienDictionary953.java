@@ -1,4 +1,5 @@
 VerifyingAnAlienDictionary953.java
+***Lexicographical order***
 
 Problem:
 Given a sequence of words and an alien alphabet order, return true if the words are sorted according to the alien language.
