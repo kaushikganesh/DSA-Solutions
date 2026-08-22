@@ -3,18 +3,14 @@ BestTimeToBuyAndSellStock121.java
 Problem:
 
 Given an array of integers prices, where prices[i] represents the price of a stock on the ith day, return the maximum profit that can be achieved by buying on one day and selling on a different day in the future.
-
 If no profit is possible, return 0.
-
 
 Example:
 
 Input:
-
 prices = [7,1,5,3,6,4]
 
 Output:
-
 5
 
 Explanation:
@@ -33,7 +29,6 @@ Approach:
 Use two variables:
 
 min → stores the lowest price found so far.
-
 profit → stores the maximum profit found so far.
 
 For every price:
@@ -157,12 +152,10 @@ Continue
 Complexity:
 
 Time Complexity: O(n)
-
 The array is traversed only once.
 Therefore, each price is checked once.
 
 Space Complexity: O(1)
-
 Only two variables, min and profit, are used.
 No extra array or data structure is required.
 
